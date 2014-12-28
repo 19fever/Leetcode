@@ -1,4 +1,4 @@
-ass Solution {
+class Solution {
 public:
     int firstMissingPositive(int A[], int n) {
         for (size_t i = 0; i < n; i++) {

@@ -1,4 +1,4 @@
-ass Solution {
+class Solution {
 public:
     const vector<string> keyboard {" ", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
     vector<string> letterCombinations(string digits) {

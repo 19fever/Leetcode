@@ -1,4 +1,4 @@
-ass Solution {
+class Solution {
 public:
     bool isInterleave(string s1, string s2, string s3) {
         bool dp[s1.length() + 1][s2.length() + 1];

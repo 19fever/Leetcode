@@ -1,4 +1,4 @@
-ass Solution {
+class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
         bool flag[256] = {false};

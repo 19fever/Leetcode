@@ -1,4 +1,4 @@
-ass Solution {
+class Solution {
 public:
     vector<vector<string>> partition(string s) {
         vector<vector<string>> result;

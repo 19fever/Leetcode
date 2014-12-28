@@ -1,4 +1,4 @@
-ass Solution {
+class Solution {
 public:
     vector<string> anagrams(vector<string> &strs) {
         unordered_map<string, vector<string>> mp;
