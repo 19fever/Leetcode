@@ -8,7 +8,7 @@ public:
         return result;
     }
     
-    void dfs(vector<int> &num, int diff, int start, vector<int> &path, vector<vector<int> > &result) {
+    void dfs(const vector<int> &num, int diff, int start, vector<int> &path, vector<vector<int> > &result) {
         if (diff == 0) {
             result.push_back(path);
             return;
@@ -27,3 +27,4 @@ public:
             }
         }
     }
+};
