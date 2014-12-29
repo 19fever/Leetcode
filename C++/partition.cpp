@@ -7,7 +7,7 @@ public:
         return result;
     }
     
-    void dfs(string &s, int start, vector<string> &path, vector<vector<string>> &result) {
+    void dfs(const string &s, int start, vector<string> &path, vector<vector<string>> &result) {
         if (start == s.size()) {
             result.push_back(path);
             return;
