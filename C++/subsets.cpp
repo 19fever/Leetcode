@@ -10,14 +10,12 @@ public:
     }
     
     void dfs(const vector<int> &S, vector<vector<int> > &result, vector<int> &path, int step) {
-        if(step == S.size()) {
-            result.push_back(path);
-            return;
-        }
+        result.push_back(path);
         
-        dfs(S, result, path, step + 1);
-        path.push_back(S[step]);
-        dfs(S, result, path, step + 1);
-        path.pop_back();
+        for (size_t i = step; i < S.size(); i++) {
+            path.push_back(S[i]);
+            dfs(S, result, path, i + 1);
+            path.pop_back();
+        }
     }
 };
